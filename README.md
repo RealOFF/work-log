@@ -5,7 +5,7 @@
 ## Features
 
 - **Time tracking**: Automatically calculates time spent in each git branch today
-- **Git reflog analysis**: Uses git reflog to track branch switches and calculate durations  
+- **Git reflog analysis**: Uses git reflog to track branch switches and calculate durations
 - **Beautiful output**: Terminal table display using Ink React
 - **Real-time data**: Shows current day's branch activity with last active times
 - **Zero configuration**: Works out of the box in any git repository
@@ -28,12 +28,14 @@ pnpm run work-log
 ## Usage
 
 ### Development Mode
+
 ```bash
 # Run directly with tsx (development)
 pnpm run work-log
 ```
 
 ### Built Version
+
 ```bash
 # Run the built CLI tool
 node dist/main.js
@@ -43,6 +45,7 @@ pnpm start
 ```
 
 ### Global Installation (after publishing)
+
 ```bash
 # Install globally
 npm install -g work-log
@@ -81,6 +84,7 @@ Total          4h 31m
 ## Development
 
 ### Setup
+
 ```bash
 # Install dependencies
 pnpm install
@@ -90,6 +94,7 @@ pnpm run dev
 ```
 
 ### Available Scripts
+
 - `pnpm run build` - Build with tsdown
 - `pnpm run dev` - Development mode with watch
 - `pnpm run test` - Run tests with vitest
@@ -100,6 +105,7 @@ pnpm run dev
 - `pnpm run work-log` - Run CLI tool in development
 
 ### Tech Stack
+
 - **Build Tool**: tsdown
 - **Runtime**: Node.js
 - **UI Framework**: Ink (React for CLI)
@@ -109,6 +115,7 @@ pnpm run dev
 - **Linting**: ESLint + Prettier
 
 ### Code Conventions
+
 - Use `type` instead of `interface` for TypeScript
 - File naming: kebab-case (`work-log-app.tsx`)
 - ESM modules with strict TypeScript
